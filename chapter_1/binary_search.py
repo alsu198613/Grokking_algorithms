@@ -24,3 +24,4 @@ def search_iterative(list, item):
 my_list = [1, 3, 5, 7, 9]
   
 print(search_iterative(my_list, 3)) # => 1
+print(search_iterative(my_list, -1)) # => None
